@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>app-ads.txt for Quria iOS App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app-ads.txt - Quria iOS App</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        pre {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 4px;
+            border-left: 4px solid #007acc;
+            overflow-x: auto;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 10px;
+        }
+        .meta {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-  <h1>app-ads.txt for Quria iOS App</h1>
-  <p>This file provides transparency about advertising partners and authorized sellers</p>
-  <p><em>Last updated: 2025-01-17</em></p>
+    <div class="container">
+        <h1>app-ads.txt</h1>
+        <p class="meta">Quria iOS App - Advertising Transparency</p>
+        
+        <pre># app-ads.txt for Quria iOS App
+# This file provides transparency about advertising partners and authorized sellers
+# Last updated: 2025-01-17
 
-  <pre>
 # Google AdMob
 google.com, pub-3940256099942544, DIRECT, f08c47fec0942fa0
 
@@ -17,7 +54,9 @@ google.com, pub-3940256099942544, DIRECT, f08c47fec0942fa0
 searchads.apple.com, 93Z744WB2K, DIRECT
 
 # Additional authorized sellers can be added here as needed
-# Format: domain, publisher_id, relationship, certification_authority_id
-  </pre>
+# Format: domain, publisher_id, relationship, certification_authority_id</pre>
+        
+        <p><strong>Note:</strong> This file is used by advertising networks to verify authorized sellers for the Quria iOS App.</p>
+    </div>
 </body>
 </html>
