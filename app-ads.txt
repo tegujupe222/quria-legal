@@ -1,0 +1,12 @@
+# app-ads.txt for Quria iOS App
+# This file provides transparency about advertising partners and authorized sellers
+# Last updated: 2025-01-17
+
+# Google AdMob
+google.com, pub-3940256099942544, DIRECT, f08c47fec0942fa0
+
+# Apple Search Ads
+searchads.apple.com, 93Z744WB2K, DIRECT
+
+# Additional authorized sellers can be added here as needed
+# Format: domain, publisher_id, relationship, certification_authority_id
