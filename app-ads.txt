@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>app-ads.txt</title>
-    <style>
-        body {
-            font-family: 'Courier New', monospace;
-            margin: 0;
-            padding: 20px;
-            background-color: white;
-            color: #333;
-        }
-        pre {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-    <pre># app-ads.txt for Quria iOS App
+# app-ads.txt for Quria iOS App
 # This file provides transparency about advertising partners and authorized sellers
 # Last updated: 2025-01-17
 
@@ -31,6 +9,4 @@ google.com, pub-3940256099942544, DIRECT, f08c47fec0942fa0
 searchads.apple.com, 93Z744WB2K, DIRECT
 
 # Additional authorized sellers can be added here as needed
-# Format: domain, publisher_id, relationship, certification_authority_id</pre>
-</body>
-</html>
+# Format: domain, publisher_id, relationship, certification_authority_id
